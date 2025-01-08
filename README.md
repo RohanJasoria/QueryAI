@@ -2,7 +2,7 @@
 
 **QueryAI** is a Python-based project designed to provide accurate, context-aware answers to user queries. By leveraging the power of the **SentenceTransformer** library, QueryAI efficiently stores summary documents as vectors in an Elasticsearch database. It exposes a **RESTful API** that allows users to ask questions related to the stored context.
 
-When a user submits a query, QueryAI retrieves the most relevant information using KNN search i.e. K nearest neighbours. The retrieved answers are then refined accordong to the asked question and converted into a human-readable format using the T5 model which is provided by the Hugging Face Transformers library, ensuring that the response is both accurate and easy to understand.
+When a user submits a query, QueryAI retrieves the most relevant information using KNN search i.e. K nearest neighbours. The retrieved answers are then refined according to the asked question and converted into a human-readable format using the T5 model which is provided by the Hugging Face Transformers library, ensuring that the response is both accurate and easy to understand.
 
 ## RESTful API
 
